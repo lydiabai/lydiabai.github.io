@@ -1,0 +1,156 @@
+#emoji {
+	width: 8%;
+	height: 10%;
+	padding-left: 10%;
+}
+
+#funphotos, #famphotos {
+   /* Prevent vertical gaps */
+   line-height: 0;
+   
+   -webkit-column-count: 3;
+   -webkit-column-gap:   0px;
+   -moz-column-count:    2.5;
+   -moz-column-gap:      0px;
+   column-count:         3;
+   column-gap:           0px;
+   
+}
+#funphotos img, #famphotos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
+
+.funcontent, .famcontent{
+	background-color: black;
+}
+
+
+.content {
+	font-size: 24px;
+	padding: 250px;
+}
+
+/*this is my list in my facts section*/
+.factlist {
+	background-color: rgba(250,241,241, 0.5);
+	border-radius: 30px;
+	/*padding-top: 10px;*/
+	padding: 10px 10px 10px 10px;
+
+	/*font in the factlist*/
+	font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+	font-weight: normal;
+    font-size: 1.25em;
+	letter-spacing: .05em;
+	line-height: 1.60em;
+	margin:0px;
+	text-align: left;
+	/*text-transform: uppercase;*/
+	
+}
+
+.factcontent ul li {
+	list-style-type: none;
+
+}
+.factcontent{
+	background: url(../images/facts.png) no-repeat center center ;
+	background-size: cover;
+	background-attachment: local;
+
+	padding-top: 10%;
+	padding-left:10%;
+	padding-right:45%;
+	height: 650px;
+
+}
+
+
+#title {
+	font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+	font-weight: normal;
+	padding-top: 100px;
+	padding-left: 50px;
+    font-size: 8.75em;
+	letter-spacing: .1em;
+	margin:0px;
+	text-align: left;
+	text-transform: uppercase;
+
+}
+
+.center {
+	text-align: center;
+	overflow: hidden;
+	margin: 0 auto;
+	position: fixed;
+}
+
+/*.home a:active {
+	font-size: 26px;
+}*/
+
+.home a:hover {
+	color: white;
+	text-decoration: none;
+	background-color: black;
+}
+
+/*links on my home page*/
+a {
+
+	display: block;
+	font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+	font-weight: normal;
+	padding-top: 120px;
+    font-size: 1.75em;
+	letter-spacing: .1em;
+	margin:0px;
+	text-transform: uppercase;
+
+	color: white;
+	text-shadow: 1px 0 black, 1px 2px black, 2px 1px black, 0 1px black;
+	border-radius: 5px;
+    
+   
+    padding: 8px 20px;
+    text-decoration: none;
+}
+.center li {
+	float: left;
+}
+
+.center ul{
+	display: inline-block;
+	list-style-type: none;
+
+}
+
+.home {
+	background: url(../images/gopro1.png) no-repeat center center ;
+	background-size: cover;
+	background-attachment: local;
+	/*background-clip: padding-box;*/
+	height: 800px;
+	/*border: 15px solid rgba(35,66,97,.6);*/
+
+
+}
+
+.fun {
+
+	background-color: white;
+
+}
+
+.family {
+
+	background-color: gray;
+}
+
+.facts {
+
+	background-color: white;
+}
